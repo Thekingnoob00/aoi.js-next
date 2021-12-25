@@ -2,8 +2,9 @@
   "name": "aoi.ts",
   "version": "1.0.0-dev",
   "description": "A ",
-  "main": "src/index.js",
-  "typings": "src/index.d.ts",
+  "types": "dist/index.d.ts",
+  "module": "dist/index.mjs",
+  "main": "dist/index.js",
   "scripts": {
     "test": "node index.js",
     "prettycheck": "prettier --check \\\"src/**/*.js\\\"",
