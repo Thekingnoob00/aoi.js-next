@@ -1,0 +1,7 @@
+## IGNORE PACKAGES
+node_modules
+
+## Other Ignores
+.idea
+.vscode
+/index.js
