@@ -1,3 +1,6 @@
 src
 docs
 __tests__
+.github
+.idea
+.vscode
