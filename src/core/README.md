@@ -1,0 +1,1 @@
+Main classes go under core folder.

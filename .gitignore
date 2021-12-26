@@ -1,7 +1,9 @@
-## IGNORE PACKAGES
+## Ignore node modules folder
 node_modules
 
-## Other Ignores
+## Other ignores
 .idea
 .vscode
-/index.js
+dist
+docs
+*/**/config.json
