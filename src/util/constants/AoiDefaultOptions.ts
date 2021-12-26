@@ -1,4 +1,4 @@
-import { AoiOptions } from "../../typings/interfaces/AoiOptions";
+import {AoiOptions} from "../../typings/interfaces/AoiOptions";
 
 export const AoiDefaultOptions: AoiOptions = {
     client: {

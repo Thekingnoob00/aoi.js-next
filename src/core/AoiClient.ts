@@ -1,9 +1,8 @@
-
-import { Client, ClientOptions } from "discord.js";
-import { AoiOptions } from "../typings/interfaces/AoiOptions";
-import { AoiDefaultOptions } from "../util/constants/AoiDefaultOptions";
-import { Util } from "../util/Util";
-import { AoiCommandManager } from "./AoiCommandManager";
+import {Client, ClientOptions} from "discord.js";
+import {AoiOptions} from "../typings/interfaces/AoiOptions";
+import {AoiDefaultOptions} from "../util/constants/AoiDefaultOptions";
+import {Util} from "../util/Util";
+import {AoiCommandManager} from "./AoiCommandManager";
 
 export class AoiClient {
     /**
@@ -36,6 +35,6 @@ export class AoiClient {
     #validateOptions() {
         if (this.options.intents && this.options.client && !this.options.client?.intents) {
             this.options.client.intents = this.options.intents
-        } 
+        }
     }
 }

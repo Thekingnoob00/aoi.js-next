@@ -1,4 +1,4 @@
-import { AoiClient } from "./AoiClient";
+import {AoiClient} from "./AoiClient";
 
 /**
  * Stores commands for the Client.

@@ -1,4 +1,4 @@
-import { Util } from "../util/Util"
+import {Util} from "../util/Util"
 
 const curr = {
     tmr: {

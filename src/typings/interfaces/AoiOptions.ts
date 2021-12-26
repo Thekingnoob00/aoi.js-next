@@ -1,4 +1,4 @@
-import { Client, ClientOptions } from "discord.js";
+import {Client, ClientOptions} from "discord.js";
 
 export interface AoiOptions {
     /**

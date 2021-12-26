@@ -1,10 +1,11 @@
 export class Util extends null {
-    constructor() {}
+    constructor() {
+    }
 
     static mergeDefault(target: any, source: any) {
         const keys = Object.keys(source)
 
-        for (let i = 0, len = keys.length;i < len;i++) {
+        for (let i = 0, len = keys.length; i < len; i++) {
             const key = keys[i]
 
             const current = target[key]
@@ -14,7 +15,7 @@ export class Util extends null {
             if (current === undefined) {
                 target[key] = value
             } else if (current === null) {
-                continue
+
             } else {
                 if (!Array.isArray(value) && typeof value === 'object') {
                     Util.mergeDefault(current, value)
