@@ -1,6 +1,6 @@
-# aoi.ts Contribution Guide 101
+# aoi.js Contribution Guide 101
 
-Want to contribute into aoi.ts development and help further grow it's package?
+Want to contribute into aoi.js development and help further grow it's package?
 
 Read below to understand its conditions.
 
@@ -13,7 +13,7 @@ Read below to understand its conditions.
 - Do not randomly place files in the wrong folders.
 - Before submitting a pull request, make sure you've tested your changes and that they don't break anything or cause conflicts.
 - Indentation must be the same over the whole project structure.
-- aoi.ts runs on strings, decreasing the performance by a lot already, so if possible try to always create optimized codes.
+- aoi.js runs on strings, decreasing the performance by a lot already, so if possible try to always create optimized codes.
 - New dependencies are no problem, however, do note that they should only be added if they are needed (Heavy dependencies might not be accepted).
 - If you make a pull request, you must be active in it as well and reply as fast as possible
 

@@ -5,9 +5,9 @@ export default async function () {
      * To fetch the API version current and version installed.
      */
     try {
-        const { version } = require('../../package.json')
-        
-        const res = await axios.get("https://api.leref.ga/package/version");
+        const {version} = require('../../package.json')
+
+        const res = await axios.get("https://api.leref.ga/package/version"); //This will change when the package is published.
 
         if (version !== res.data.version) {
             console.warn(

@@ -1,1 +1,2 @@
-export default function(): void {}
+export default function (): void {
+}
