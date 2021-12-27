@@ -1,4 +1,4 @@
-import { FunctionFieldTypes } from "../types/FunctionFieldTypes"
+import {FunctionFieldTypes} from "../types/FunctionFieldTypes"
 
 export interface FunctionFieldData {
     /**

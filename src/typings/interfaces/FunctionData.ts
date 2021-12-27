@@ -1,5 +1,5 @@
-import { FunctionFieldData } from "./FunctionFieldData"
-import { Module } from "./Module"
+import {FunctionFieldData} from "./FunctionFieldData"
+import {Module} from "./Module"
 
 /**
  * Data held by a function from aoi.ts
