@@ -1,1 +1,1 @@
-export type FunctionFieldTypes = 'STRING'
+export type FunctionFieldTypes = 'STRING' | 'USER'

@@ -1,3 +1,5 @@
+import { FunctionExecutor } from "../types/FunctionExecutor"
+import { FunctionFieldTypes } from "../types/FunctionFieldTypes"
 import { FunctionFieldData } from "./FunctionFieldData"
 import { Module } from "./Module"
 
@@ -36,6 +38,16 @@ export interface FunctionData {
     examples?: string[]
 
     /**
+     * What data is returned from this function.
+     */
+    returns?: FunctionFieldTypes
+
+    /**
+     * Whether the return can be empty.
+     */
+    nullable?: boolean
+
+    /**
      * Required modules / packages for this function to work.
      */
     requiredModules?: Module[]
@@ -44,4 +56,6 @@ export interface FunctionData {
      * Optional modules / packages that may improve performance of this function.
      */
     optionalModules?: Module[]
+
+    execute: FunctionExecutor
 }
