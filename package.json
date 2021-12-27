@@ -1,7 +1,7 @@
 {
-  "name": "aoi.ts",
+  "name": "aoi.js-next",
   "version": "1.0.0-dev",
-  "description": "aoi.ts is the next generation of aoi.js and dbd.ts combined into one.",
+  "description": "aoi.js is the next generation of aoi.js and dbd.ts combined into one.",
   "types": "dist/index.d.ts",
   "module": "dist/index.mjs",
   "main": "dist/index.js",
@@ -40,13 +40,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AkaruiDevelopment/aoi.ts.git"
+    "url": "git+https://github.com/AkaruiDevelopment/aoi.js-next.git"
   },
   "author": "",
   "bugs": {
-    "url": "https://github.com/AkaruiDevelopment/aoi.ts/issues"
+    "url": "https://github.com/AkaruiDevelopment/aoi.js-next/issues"
   },
-  "homepage": "https://github.com/AkaruiDevelopment/aoi.ts#readme",
+  "homepage": "https://github.com/AkaruiDevelopment/aoi.js-next#readme",
   "devDependencies": {
     "@types/node": "^17.0.5",
     "gen-esm-wrapper": "^1.1.3",

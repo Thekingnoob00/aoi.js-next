@@ -2,7 +2,7 @@ import {FunctionFieldData} from "./FunctionFieldData"
 import {Module} from "./Module"
 
 /**
- * Data held by a function from aoi.ts
+ * Data held by a function from aoi.js
  */
 export interface FunctionData {
     /**
